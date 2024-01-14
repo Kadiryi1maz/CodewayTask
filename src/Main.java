@@ -22,11 +22,11 @@ public class Main {
                 diceRolls[i] = random.nextInt(6) + 1;
             }
 
-            if (diceRolls[0] == diceRolls[1] && diceRolls[1] == diceRolls[2]) { // 4. madde
+            if (diceRolls[0] == diceRolls[1] && diceRolls[1] == diceRolls[2]) { // 
                 for (int i = 0; i < 3; i++) {
                     totalPoints[i] += diceRolls[i];
                 }
-            } else if (diceRolls[0] != diceRolls[1] && diceRolls[1] != diceRolls[2] && diceRolls[0] != diceRolls[2]) { // 5. madde
+            } else if (diceRolls[0] != diceRolls[1] && diceRolls[1] != diceRolls[2] && diceRolls[0] != diceRolls[2]) { // 
                 for (int i = 0; i < 3; i++) {
                     totalPoints[i] += diceRolls[i];
                 }
